@@ -1,11 +1,11 @@
 int pot = 0;
 void setup() {
   Serial.begin(115200);
-  pinMode(12, INPUT);
+  pinMode(34, INPUT);
 }
 
 void loop() {
-  pot=analogRead(12);
+  pot=analogRead(34);
   Serial.println(pot);
   delay(200);
 }
